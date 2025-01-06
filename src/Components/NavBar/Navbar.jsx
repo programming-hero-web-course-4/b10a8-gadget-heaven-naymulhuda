@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { CiShoppingCart } from "react-icons/ci";
+import { HiOutlineHeart } from "react-icons/hi";
 
 
 const Navbar = () => {
@@ -42,13 +44,19 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost text-xl text-white lg:ml-40">Gadget Heaven</a>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+            <div className="menu menu-sm navbar-center hidden lg:flex lg:ml-32 text-white">
+                <ul>
                     {Links}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn lg:mr-40">Button</a>
+            <div className="navbar-end flex gap-4 lg:mr-40">
+                <div className="bg-white p-2 rounded-full">
+                <CiShoppingCart className="w-5 h-5"/>
+                </div>
+                <div className="bg-white p-2 rounded-full">
+                <HiOutlineHeart className="w-5 h-5"/>
+                </div>
+                
             </div>
         </div>
     );
