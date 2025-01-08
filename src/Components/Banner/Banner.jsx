@@ -3,7 +3,7 @@ import bannerImg from '../../assets/banner.jpg'
 
 const Banner = () => {
     return (
-        <div className='flex flex-col items-center justify-center text-center bg-[#9333ea] h-[694px] rounded-b-3xl'>
+        <div className='flex flex-col items-center justify-center text-center bg-[#9333ea] h-[694px] rounded-b-3xl max-w-[1600px] mx-auto'>
             <section className='mt-60 flex flex-col items-center justify-center'>
                 <h1 className='font-extrabold text-5xl lg:w-[1000px] leading-tight mb-7 text-white'>Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
                 <p className='mb-7 lg:w-[700px] text-white'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>

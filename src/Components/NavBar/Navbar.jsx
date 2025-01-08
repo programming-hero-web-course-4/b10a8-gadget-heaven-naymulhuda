@@ -1,10 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { CiShoppingCart } from "react-icons/ci";
 import { HiOutlineHeart } from "react-icons/hi";
 
 
 const Navbar = () => {
+    const location = useLocation();
 
+    // Determine styles based on the current route
+    const isHomePage = location.pathname === "/";
+    const navbarBgColor = isHomePage ? "bg-[#9333ea]" : "bg-white";
+    const textColor = isHomePage ? "text-white" : "text-black";
+    const iconColor = isHomePage ? "text-black" : "text-black";
 
     const Links = <>
 
@@ -19,7 +25,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-[#9333ea] mt-6 rounded-t-3xl">
+        <div className={`navbar ${navbarBgColor} mt-6 rounded-t-3xl ${isHomePage ? "max-w-[1600px] mx-auto" : "w-full"} ${textColor}`}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,23 +44,23 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                        className={`menu menu-sm dropdown-content ${navbarBgColor} rounded-box z-[1] mt-3 w-52 p-2 shadow`}>
                         {Links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl text-white lg:ml-40">Gadget Heaven</a>
+                <a className={`btn btn-ghost text-xl ${textColor} lg:ml-40`}>Gadget Heaven</a>
             </div>
-            <div className="menu menu-sm navbar-center hidden lg:flex lg:ml-32 text-white">
+            <div className={`menu menu-sm navbar-center hidden lg:flex lg:ml-32 ${textColor}`}>
                 <ul>
                     {Links}
                 </ul>
             </div>
             <div className="navbar-end flex gap-4 lg:mr-40">
-                <div className="bg-white p-2 rounded-full">
-                <CiShoppingCart className="w-5 h-5"/>
+                <div className="bg-white p-2 rounded-full border">
+                <CiShoppingCart className={`w-5 h-5 ${iconColor}`}/>
                 </div>
-                <div className="bg-white p-2 rounded-full">
-                <HiOutlineHeart className="w-5 h-5"/>
+                <div className="bg-white p-2 rounded-full border">
+                <HiOutlineHeart className={`w-5 h-5 ${iconColor}`}/>
                 </div>
                 
             </div>
