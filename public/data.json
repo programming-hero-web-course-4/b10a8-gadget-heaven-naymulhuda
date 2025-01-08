@@ -1,0 +1,179 @@
+[
+    {
+      "product_id": "G2001",
+      "product_title": "Smartphone Alpha X1",
+      "product_image": "https://i.ibb.co.com/4KVCJYL/eluga-x1-pro-mobiles-500x500-500x500-500x500.webp",
+      "category": "Smartphone",
+      "price": 699.99,
+      "description": "Experience the next generation smartphone with cutting-edge technology and sleek design.",
+      "specification": {
+        "Processor": "Snapdragon 888",
+        "RAM": "6GB",
+        "Storage": "128GB",
+        "Battery": "4500mAh",
+        "Camera": "64MP Triple Rear, 32MP Front",
+        "Display": "6.1-inch OLED, 90Hz"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "G2002",
+      "product_title": "Smartphone Beta Pro",
+      "product_image": "https://i.ibb.co.com/Dkh4S9k/android-15-beta-magic-v2-etc.jpg",
+      "category": "Smartphone",
+      "price": 749.99,
+      "description": "Advanced smartphone with superior camera capabilities and long-lasting battery life.",
+      "specification": {
+        "Processor": "Exynos 2100",
+        "RAM": "8GB",
+        "Storage": "256GB",
+        "Battery": "5000mAh",
+        "Camera": "108MP Triple Rear, 40MP Front",
+        "Display": "6.5-inch AMOLED, 120Hz"
+      },
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "G2003",
+      "product_title": "Smartphone Gamma Lite",
+      "product_image": "https://i.ibb.co.com/XSJbpHZ/4-zu-3-Teaser.jpg",
+      "category": "Smartphone",
+      "price": 599.99,
+      "description": "Lightweight smartphone offering excellent performance and affordability.",
+      "specification": {
+        "Processor": "MediaTek Dimensity 800",
+        "RAM": "4GB",
+        "Storage": "64GB",
+        "Battery": "4000mAh",
+        "Camera": "48MP Dual Rear, 16MP Front",
+        "Display": "6.0-inch LCD, 60Hz"
+      },
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+      "product_id": "G2004",
+      "product_title": "Smartphone Delta Ultra",
+      "product_image": "https://i.ibb.co.com/kDwbn0M/d7d225747555439d6b530fea8910ceea.jpg",
+      "category": "Smartphone",
+      "price": 899.99,
+      "description": "Premium smartphone with top-tier features and exceptional build quality.",
+      "specification": {
+        "Processor": "Apple A15 Bionic",
+        "RAM": "6GB",
+        "Storage": "512GB",
+        "Battery": "4400mAh",
+        "Camera": "12MP Triple Rear, 12MP Front",
+        "Display": "6.7-inch Super Retina XDR, 120Hz"
+      },
+      "availability": false,
+      "rating": 4.8
+    },
+    {
+      "product_id": "G2005",
+      "product_title": "Smartphone Epsilon S",
+      "product_image": "https://i.ibb.co.com/0c4PHS6/9596965941.jpg",
+      "category": "Smartphone",
+      "price": 649.99,
+      "description": "Reliable smartphone with balanced performance and elegant design.",
+      "specification": {
+        "Processor": "Kirin 9000",
+        "RAM": "8GB",
+        "Storage": "128GB",
+        "Battery": "4800mAh",
+        "Camera": "50MP Triple Rear, 20MP Front",
+        "Display": "6.3-inch AMOLED, 90Hz"
+      },
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "G2006",
+      "product_title": "Smartphone Zeta Max",
+      "product_image": "https://i.ibb.co.com/cgFzJ4r/ZTE-Blade-Max-View-500x500.jpg",
+      "category": "Smartphone",
+      "price": 829.99,
+      "description": "High-end smartphone with exceptional performance and innovative features.",
+      "specification": {
+        "Processor": "Snapdragon 8 Gen 1",
+        "RAM": "12GB",
+        "Storage": "256GB",
+        "Battery": "5100mAh",
+        "Camera": "108MP Quad Rear, 40MP Front",
+        "Display": "6.8-inch AMOLED, 120Hz"
+      },
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "G2007",
+      "product_title": "Wireless Noise-Cancelling Headphones ProX",
+      "product_image": "https://i.ibb.co.com/GvwcCX5/logitech-643.jpg",
+      "category": "Audio",
+      "price": 299.99,
+      "description": "Top-tier headphones offering superior sound quality and active noise cancellation.",
+      "specification": {
+        "Bluetooth": "5.3",
+        "Battery Life": "35 hours",
+        "Noise Cancellation": "Adaptive Active",
+        "Microphone": "High-Fidelity",
+        "Weight": "250g"
+      },
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "G2008",
+      "product_title": "Portable Bluetooth Speaker SoundWave",
+      "product_image": "https://i.ibb.co.com/8dDxpNJ/VP10649.jpg",
+      "category": "Audio",
+      "price": 129.99,
+      "description": "Powerful and portable speaker with rich sound and deep bass.",
+      "specification": {
+        "Battery Life": "20 hours",
+        "Bluetooth": "5.1",
+        "Waterproof": "IPX6",
+        "Weight": "600g",
+        "Frequency Response": "18Hz-22kHz"
+      },
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "G2009",
+      "product_title": "Smartwatch Omega Fit",
+      "product_image": "https://i.ibb.co.com/GtxYksG/Inkasus-Oct24-ILN450-1-ezgif-com-webp-to-jpg-converter.jpg",
+      "category": "Wearable",
+      "price": 249.99,
+      "description": "Advanced smartwatch with comprehensive fitness tracking and smart notifications.",
+      "specification": {
+        "Display": "1.5-inch AMOLED",
+        "Battery Life": "10 days",
+        "Water Resistance": "5ATM",
+        "Connectivity": "Bluetooth, Wi-Fi, GPS",
+        "Sensors": "Heart Rate, SpO2, Accelerometer, Gyroscope"
+      },
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "G2010",
+      "product_title": "Fitness Tracker PulsePlus",
+      "product_image": "https://i.ibb.co.com/bdncSwb/Polar-Verity-Sense-Heart-Rate-Monitor-3aa538d3-4e71-4800-8713-a077fd5c4fba-1e557edbbb669f0206af590d3.jpg",
+      "category": "Wearable",
+      "price": 149.99,
+      "description": "Compact fitness tracker with accurate monitoring and long battery life.",
+      "specification": {
+        "Battery Life": "14 days",
+        "Water Resistance": "IP68",
+        "Features": "Heart Rate, Steps, Sleep Tracking, Calorie Burn",
+        "Display": "1.1-inch OLED",
+        "Weight": "30g"
+      },
+      "availability": true,
+      "rating": 4.3
+    }
+  ]
+  
