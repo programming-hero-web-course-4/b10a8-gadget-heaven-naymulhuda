@@ -12,7 +12,8 @@
           "storage": "256GB SSD",
           "screen_size": "15.6 inches",
           "weight": "1.8 kg"
-      }
+      },
+      "rating": 5.0
   },
   {
       "product_id": 2,
@@ -27,7 +28,8 @@
           "storage": "512GB SSD",
           "screen_size": "14 inches",
           "weight": "1.6 kg"
-      }
+      },
+      "rating": 6.2
   },
   {
       "product_id": 3,
@@ -42,7 +44,8 @@
           "storage": "256GB SSD",
           "screen_size": "14 inches",
           "weight": "1.5 kg"
-      }
+      },
+      "rating": 9.6
   },
   {
       "product_id": 4,
@@ -57,7 +60,8 @@
           "storage": "512GB SSD",
           "screen_size": "14 inches",
           "weight": "1.3 kg"
-      }
+      },
+      "rating": 5.1
   },
   {
       "product_id": 5,
@@ -72,7 +76,8 @@
           "storage": "256GB SSD",
           "screen_size": "13.6 inches",
           "weight": "1.24 kg"
-      }
+      },
+      "rating": 7.0
   },
   {
       "product_id": 6,
@@ -87,7 +92,8 @@
           "storage": "128GB SSD",
           "screen_size": "15.6 inches",
           "weight": "1.9 kg"
-      }
+      },
+     "rating": 5.3
   },
   {
       "product_id": 7,
@@ -102,7 +108,8 @@
           "camera": "48MP + 12MP + 12MP",
           "battery": "4323mAh",
           "weight": "240g"
-      }
+      },
+      "rating": 6.8
   },
   {
       "product_id": 8,
@@ -117,7 +124,8 @@
           "camera": "200MP + 12MP + 10MP + 10MP",
           "battery": "5000mAh",
           "weight": "234g"
-      }
+      },
+      "rating": 3.3
   },
   {
       "product_id": 9,
@@ -132,7 +140,8 @@
           "connectivity": "GPS + Cellular",
           "weight": "42.3g",
           "compatibility": "iOS"
-      }
+      },
+      "rating": 5.0
   },
   {
       "product_id": 10,
@@ -147,6 +156,7 @@
           "weight": "250g",
           "charging": "USB-C",
           "additional_features": "Quick Attention, Speak-to-Chat"
-      }
+      },
+      "rating": 4.3
   }
 ]

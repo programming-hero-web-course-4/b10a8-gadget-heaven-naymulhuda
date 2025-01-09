@@ -2,16 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Gadget = ({ gadget }) => {
-    const { product_id, product_title, product_image, category, price } = gadget;
+    const { product_id, product_title, product_image, category, price, rating } = gadget;
     const handleGadgetDetails = () => {
 
     }
     return (
         <div>
-            <div className="card bg-base-100 w-96 h-[450px] shadow-xl mt-10 border border-green-400">
-                <figure className='px-5 py-5 border border-red-400'>
+            <div className="card bg-base-100 w-96 h-[450px] shadow-xl mt-10 ">
+                <figure className='px-5 py-5 '>
                     <img
-                        className='bg-cover rounded-xl border border-blue-700'
+                        className='bg-cover rounded-xl '
                         src={product_image}
                         alt={category} />
                 </figure>
