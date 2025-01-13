@@ -2,6 +2,8 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { CiShoppingCart } from "react-icons/ci";
 import { HiOutlineHeart } from "react-icons/hi";
+import { addToStoredAddToCart } from '../../Utility/addToDB';
+import { addToStoredWishList } from '../../Utility/addToWishList';
 
 const GadgetDetails = () => {
 
@@ -12,11 +14,18 @@ const GadgetDetails = () => {
 
   const gadget = data.find((gadget) => gadget.product_id === id);
 
-  const { product_id: currentBookId, product_title, product_image, price, rating, description, specification } = gadget;
+  const { product_id: currentGadgetId, product_title, product_image, price, rating, description, specification } = gadget;
+
+  const handleAddToCart = (id) => {
+     addToStoredAddToCart(id);
+  }
+  const handleAddToWishList = (id) => {
+     addToStoredWishList(id);
+  }
 
   return (
     <div>
-      <div className='border-2 border-red-600 h-96 bg-[#9538E2] flex flex-col items-center text-white '>
+      <div className=' h-96 bg-[#9538E2] flex flex-col items-center text-white '>
 
         <div className='flex flex-col  items-center text-white mt-6'>
           <h2 className=' text-4xl font-bold mb-3'>Product Details</h2>
@@ -79,8 +88,8 @@ const GadgetDetails = () => {
             </div>
 
             <div className='flex items-center  gap-7'>
-              <button className='btn font-bold font-lg bg-[#9538E2] text-white rounded-3xl'>Add To Cart <CiShoppingCart size={24}></CiShoppingCart> </button>
-              <button className='btn'>
+              <button onClick={() => handleAddToCart(currentGadgetId)} className='btn font-bold font-lg bg-[#9538E2] text-white rounded-3xl'>Add To Cart <CiShoppingCart size={24}></CiShoppingCart> </button>
+              <button onClick={() => handleAddToWishList(currentGadgetId)} className='btn'>
                 <HiOutlineHeart size={24}></HiOutlineHeart>
               </button>
 
