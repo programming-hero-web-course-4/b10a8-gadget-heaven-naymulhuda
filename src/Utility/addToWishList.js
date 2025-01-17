@@ -1,5 +1,5 @@
 const getStoredToWishList = () => {
-    const storedWishStr = localStorage.getItem('wish-list');
+    const storedWishStr = localStorage.getItem('wishlist');
     if (storedWishStr) {
         const storedWish = JSON.parse(storedWishStr);
         return storedWish;
@@ -18,9 +18,9 @@ const addToStoredWishList = (id) => {
     else {
       storedWish.push(id);
       const storedWishStr = JSON.stringify(storedWish);
-      localStorage.setItem('wish-list', storedWishStr);
+      localStorage.setItem('wishlist', storedWishStr);
       console.log(id, 'added to the wishlist')
     }
 }
 
-export { addToStoredWishList };
+export { addToStoredWishList,getStoredToWishList };
